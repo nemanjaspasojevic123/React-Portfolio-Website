@@ -82,12 +82,12 @@ const Center = styled.button`
   @media only screen and (max-width: 50em) {
     top: ${(props) => (props.click ? "90%" : "50%")};
     left: ${(props) => (props.click ? "90%" : "50%")};
-    width: ${(props) => (props.click ? "80px" : "150px")};
-    height: ${(props) => (props.click ? "80px" : "150px")};
+    width: ${(props) => (props.click ? "80px" : "185px")};
+    height: ${(props) => (props.click ? "80px" : "185px")};
   }
   @media only screen and (max-width: 30em) {
-    width: ${(props) => (props.click ? "40px" : "150px")};
-    height: ${(props) => (props.click ? "40px" : "150px")};
+    width: ${(props) => (props.click ? "40px" : "185px")};
+    height: ${(props) => (props.click ? "40px" : "185px")};
   }
 `;
 

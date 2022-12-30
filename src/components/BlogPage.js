@@ -40,7 +40,7 @@ const Center = styled.div`
   padding-top: 10rem;
 
   ${mediaQueries(30)`
-    padding-top: 7rem;
+    padding-top: 10rem;
     
   
   `};
@@ -102,7 +102,7 @@ const BlogPage = () => {
             </Grid>
           </Center>
 
-          <BigTitle text="EDUCATION" top="5rem" left="5rem" />
+          <BigTitle text="EDUCATION" top="5rem" left="3.5rem" />
         </Container>
       </MainContainer>
     </Suspense>

@@ -59,18 +59,18 @@ padding:1.5rem 1.5rem;
 `;
 
 const Title = styled.h2`
-  font-size: calc(1em + 0.5vw);
+  font-size: calc(1em + 1vw);
 `;
 const Description = styled.h4`
-  font-size: calc(0.8em + 0.3vw);
+  font-size: calc(0.8em + 1vw);
 
   font-family: "Karla", sans-serif;
   font-weight: 500;
   ${mediaQueries(25)`
-  font-size:calc(0.7em + 0.3vw);`
+  font-size:calc(0.7em + 0.5vw);`
 };
   ${mediaQueries(20)`
-  font-size:calc(0.6em + 0.3vw);`};
+  font-size:calc(0.6em + 0.5vw);`};
 `;
 const Tags = styled.div`
   border-top: 2px solid ${(props) => props.theme.body};
@@ -83,10 +83,10 @@ const Tags = styled.div`
 `;
 const Tag = styled.span`
   margin-right: 1rem;
-  font-size: calc(0.8em + 0.3vw);
+  font-size: calc(0.8em + 1vw);
 
   ${mediaQueries(25)`
-  font-size:calc(0.7em);
+  font-size:calc(1em);
   `};
 `;
 const Footer = styled.footer`

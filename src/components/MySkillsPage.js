@@ -26,7 +26,7 @@ const Box = styled(motion.div)`
   ${mediaQueries(50)`
             flex-direction:column;  
             padding:8rem 0;
-height:auto;
+            height:auto;
             &>*:nth-child(5){
               margin-bottom:5rem;
             }
@@ -53,11 +53,13 @@ const Main = styled(motion.div)`
 
   ${mediaQueries(60)`
             height: 55vh;
+            margin-bottom: 1rem !important;
   `};
 
   ${mediaQueries(50)`
               width: 50vw;
               height: max-content;
+              margin-bottom: 1rem !important;
 
   `};
 
@@ -189,7 +191,7 @@ const MySkillsPage = () => {
               </p>
             </Description>
           </Main>
-          <BigTitle text="SKILLS" top="80%" right="30%" />
+          <BigTitle text="SKILLS" top="85%" right="30%" />
         </Box>
       </Suspense>
     </ThemeProvider>
