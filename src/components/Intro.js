@@ -50,24 +50,18 @@ height:50vh;
 
     flex-direction:column;
     justify-content:space-between;
-  
   `};
 
   ${mediaQueries(40)`
     width: 60vw;
-    
-  
   `};
 
   ${mediaQueries(30)`
     width: 70vw;
-    
-  
   `};
+
   ${mediaQueries(20)`
     width: 60vw;
-    
-  
   `};
 
   @media only screen and (max-width: 50em) {
@@ -87,7 +81,6 @@ height:50vh;
     background-position: 0 0, 100% 0;
     background-repeat: no-repeat;
   }
-
   //height:55vh;
 `;
 
@@ -103,46 +96,31 @@ const SubBox = styled.div`
     width: 100%;
     height: auto;
   }
+
   ${mediaQueries(50)`
       width: 100%;
     height: 50%;
       .pic {
-    
     width: 70%;
-    
-  }
-
+    }
   `};
 
   ${mediaQueries(40)`
-  
-      .pic {
-    
+    .pic {
     width: 80%;
-    
-  }
-
+    }
   `};
 
   ${mediaQueries(30)`
-     
-
-      .pic {
-    
+    .pic { 
     width: 90%;
-    
-  }
-
+    }
   `};
+
   ${mediaQueries(20)`
-     
-
-     .pic {
-   
+    .pic {
    width: 80%;
-   
- }
-
+  }
  `};
 `;
 
@@ -164,21 +142,15 @@ const Text = styled(motion.div)`
 
     ${mediaQueries(40)`
         font-size: calc(0.5rem + 1vw);
-
-
   `};
   }
 
   ${mediaQueries(40)`
         font-size: calc(1rem + 1.5vw);
-
-
   `};
+
   ${mediaQueries(20)`
          padding: 1rem;
-
-
-
   `};
 `;
 

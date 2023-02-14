@@ -7,11 +7,7 @@ import { mediaQueries } from "../components/Themes";
 const Container = styled.div`
   position: relative;
   ${mediaQueries(40)`
-    
     display:none;
-
-
-
   `};
 `;
 
@@ -19,7 +15,6 @@ const PreDisplay = styled.div`
   position:absolute;
   top:0;
   right:2rem;
-}
 `;
 
 const Slider = styled.div`

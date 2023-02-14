@@ -9,6 +9,7 @@ const Box = styled.div`
   z-index: 10;
   background: inherit;
 `;
+
 const TopBar = () => {
   return (
     <Box>

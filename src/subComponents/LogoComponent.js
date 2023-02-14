@@ -10,7 +10,6 @@ const Logo = styled.div`
   height: auto;
   left: 2rem;
   top: 2rem;
-
   z-index: 3;
 }
   ${mediaQueries(40)`

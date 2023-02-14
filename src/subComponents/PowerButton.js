@@ -33,15 +33,15 @@ const Power = styled.button`
   }
 
   ${mediaQueries(40)`
-   width: 2rem;
-  height: 2rem;
+    width: 2rem;
+      height: 2rem;
       svg{
         width:20px;
         height:20px;
       }
-
   `};
 `;
+
 const PowerButton = () => {
   return (
     <Power>

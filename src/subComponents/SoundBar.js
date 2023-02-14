@@ -31,7 +31,6 @@ const Box = styled.div`
   ${mediaQueries(40)`
       left:1rem;
 top:10rem;
-
   `};
 `;
 
@@ -59,7 +58,6 @@ const Line = styled.span`
   ${mediaQueries(40)`
       height:0.5rem;
       width:1px;
-
   `};
 `;
 

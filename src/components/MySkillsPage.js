@@ -24,20 +24,18 @@ const Box = styled(motion.div)`
   align-items: center;
 
   ${mediaQueries(50)`
-            flex-direction:column;  
-            padding:8rem 0;
-            height:auto;
-            &>*:nth-child(5){
-              margin-bottom:5rem;
-            }
-           
+    flex-direction:column;  
+    padding:8rem 0;
+    height:auto;
+    &>*:nth-child(5){
+      margin-bottom:5rem;
+    }   
   `};
-  ${mediaQueries(30)`
-           
-            &>*:nth-child(5){
-              margin-bottom:4rem;
-            }
-           
+
+  ${mediaQueries(30)`   
+    &>*:nth-child(5){
+      margin-bottom:4rem;
+    }
   `};
 `;
 
@@ -52,15 +50,14 @@ const Main = styled(motion.div)`
   line-height: 1.5;
 
   ${mediaQueries(60)`
-            height: 55vh;
-            margin-bottom: 1rem !important;
+    height: 55vh;
+    margin-bottom: 1rem !important;
   `};
 
   ${mediaQueries(50)`
-              width: 50vw;
-              height: max-content;
-              margin-bottom: 1rem !important;
-
+    width: 50vw;
+    height: max-content;
+    margin-bottom: 1rem !important;
   `};
 
   font-family: "Ubuntu Mono", monospace;
@@ -82,23 +79,23 @@ const Title = styled.h2`
   font-size: calc(1em + 1vw);
 
   ${mediaQueries(60)`
-          font-size:calc(0.8em + 1vw);
+    font-size:calc(0.8em + 1vw);
   `};
 
   ${mediaQueries(50)`
-          font-size:calc(1em + 2vw);
-          margin-bottom:1rem;
+    font-size:calc(1em + 2vw);
+    margin-bottom:1rem;
   `};
 
   ${mediaQueries(30)`
-                      font-size:calc(1em + 1vw);
+    font-size:calc(1em + 1vw);
   `};
   ${mediaQueries(25)`
-                      font-size:calc(0.8em + 1vw);
-                      svg{
-                        width:30px;
-                        height:30px;
-                      }
+    font-size:calc(0.8em + 1vw);
+      svg{
+        width:30px;
+        height:30px;
+      }
   `};
 
   ${Main}:hover & {
@@ -111,6 +108,7 @@ const Title = styled.h2`
     margin-right: 1rem;
   }
 `;
+
 const Description = styled.div`
   color: ${(props) => props.theme.text};
   font-size: calc(0.6em + 1vw);
@@ -120,22 +118,15 @@ const Description = styled.div`
   }
 
   ${mediaQueries(50)`
-            font-size: calc(0.8em + 1vw);
-
+    font-size: calc(0.8em + 1vw);
   `};
 
   ${mediaQueries(30)`
-                      font-size:calc(0.7em + 1vw);
-
-              
-
+    font-size:calc(0.7em + 1vw);
   `};
 
   ${mediaQueries(25)`
-                      font-size:calc(0.5em + 1vw);
-
-              
-
+    font-size:calc(0.5em + 1vw);
   `};
 
   strong {

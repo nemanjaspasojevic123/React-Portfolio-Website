@@ -31,6 +31,4 @@ export const Blogs = [
         imgSrc:"https://media.gimnazijabb.edu.rs/2018/12/skola.jpg",
         link:"https://gimnazijabb.edu.rs/"
     },
-
-  
 ] 

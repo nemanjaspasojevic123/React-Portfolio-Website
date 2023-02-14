@@ -34,28 +34,20 @@ const Main = styled(motion.ul)`
   display: flex;
 
   ${mediaQueries(50)`
-        
-        
-        left:calc(8rem + 15vw);
-
+    left:calc(8rem + 15vw);
   `};
 
   ${mediaQueries(40)`
-  top: 30%;
-        
-        left:calc(6rem + 15vw);
-
+    top: 30%;
+    left:calc(6rem + 15vw);
   `};
 
   ${mediaQueries(40)`
-        
-        left:calc(2rem + 15vw);
-
+    left:calc(2rem + 15vw);
   `};
+
   ${mediaQueries(25)`
-        
-        left:calc(1rem + 15vw);
-
+    left:calc(1rem + 15vw);
   `};
 `;
 
@@ -69,22 +61,21 @@ const Rotate = styled.span`
 
   z-index: 1;
   ${mediaQueries(40)`
-     width:60px;
-         height:60px;   
-       svg{
-         width:60px;
-         height:60px;
-       }
-
+    width:60px;
+        height:60px;   
+      svg{
+        width:60px;
+        height:60px;
+      }
   `};
-  ${mediaQueries(25)`
-        width:50px;
-         height:50px;
-        svg{
-         width:50px;
-         height:50px;
-       }
 
+  ${mediaQueries(25)`
+    width:50px;
+      height:50px;
+    svg{
+      width:50px;
+      height:50px;
+    }
   `};
 `;
 const container = {

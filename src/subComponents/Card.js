@@ -24,54 +24,48 @@ const Box = styled(motion.li)`
   }
 
   ${mediaQueries(50)`
-        width:16rem;
-        margin-right:6rem;
-        height:35vh;
-       
-
+    width:16rem;
+    margin-right:6rem;
+    height:35vh;
   `};
+
   ${mediaQueries(40)`
-        width:14rem;
-        margin-right:4rem;
-        height:35vh;
-        
-        
-
+    width:14rem;
+    margin-right:4rem;
+    height:35vh;
   `};
+
   ${mediaQueries(25)`
-        width:12rem;
-        margin-right:4rem;
-        height:35vh;
+    width:12rem;
+    margin-right:4rem;
+    height:35vh;
+
 padding:1.5rem 1.5rem;
-        
-        
+`};
 
-  `};
   ${mediaQueries(20)`
-        width:10rem;
-        margin-right:4rem;
-        height:40vh;
-
-        
-        
-
+    width:10rem;
+    margin-right:4rem;
+    height:40vh;
   `};
 `;
 
 const Title = styled.h2`
   font-size: calc(1em + 1vw);
 `;
+
 const Description = styled.h4`
   font-size: calc(0.8em + 1vw);
-
   font-family: "Karla", sans-serif;
   font-weight: 500;
   ${mediaQueries(25)`
   font-size:calc(0.7em + 0.5vw);`
 };
+
   ${mediaQueries(20)`
   font-size:calc(0.6em + 0.5vw);`};
 `;
+
 const Tags = styled.div`
   border-top: 2px solid ${(props) => props.theme.body};
   padding-top: 0.5rem;
@@ -81,6 +75,7 @@ const Tags = styled.div`
     border-top: 2px solid ${(props) => props.theme.text};
   }
 `;
+
 const Tag = styled.span`
   margin-right: 1rem;
   font-size: calc(0.8em + 1vw);
@@ -89,10 +84,12 @@ const Tag = styled.span`
   font-size:calc(1em);
   `};
 `;
+
 const Footer = styled.footer`
   display: flex;
   justify-content: space-between;
 `;
+
 const Link = styled.a`
   background-color: ${(props) => props.theme.body};
   color: ${(props) => props.theme.text};

@@ -37,7 +37,6 @@ const MainContainer = styled(motion.div)`
   h2 {
     ${mediaQueries(40)`
       font-size:1.2em;
-
   `};
 
     ${mediaQueries(30)`
@@ -58,6 +57,7 @@ from {
     transform: rotate(360deg) ;
   }
 `;
+
 const Center = styled.button`
   position: absolute;
   top: ${(props) => (props.click ? "85%" : "50%")};
@@ -99,6 +99,7 @@ const Contact = styled.a`
   text-decoration: none;
   z-index: 1;
 `;
+
 const BLOG = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
@@ -112,6 +113,7 @@ const BLOG = styled(NavLink)`
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
   }
 `;
+
 const WORK = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
@@ -124,13 +126,13 @@ const WORK = styled(NavLink)`
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
   }
 `;
+
 const BottomBar = styled.div`
   position: absolute;
   bottom: 1rem;
   left: 0;
   right: 0;
   width: 100%;
-
   display: flex;
   justify-content: space-evenly;
 `;
@@ -140,10 +142,12 @@ const ABOUT = styled(NavLink)`
   text-decoration: none;
   z-index: 1;
 `;
+
 const SKILLS = styled(NavLink)`
   color: ${(props) => props.theme.text};
   text-decoration: none;
 `;
+
 const DarkDiv = styled.div`
   position: absolute;
   top: 0;
@@ -158,20 +162,15 @@ const DarkDiv = styled.div`
   ${(props) =>
     props.click
       ? mediaQueries(50)`
-       height: 50%;
-  right:0;
-  
-  width: 100%;
-  transition: width 0.5s ease, height 1s ease 0.5s;
-
-  `
+        height: 50%;
+        right:0; 
+        width: 100%;
+        transition: width 0.5s ease, height 1s ease 0.5s;`
       : mediaQueries(50)`
-       height: 0;
-  
-  width: 0;
+        height: 0;
+        width: 0;
   `};
 `;
-
 
 const Main = () => {
   const [click, setClick] = useState(false);
